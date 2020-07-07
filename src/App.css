@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.buttons {
+  margin: 25px;
+}
+
+.buttons button {
+  margin: 0 10px;
+  color: #32CD32;
+  background-color: rgb(50, 50, 50);
+}
+
+.Typewriter {
+  max-width: 700px;
+}
+
+.joke {
+  max-width: 700px;
+  margin: 10px;
+  color: #32CD32;
+  text-shadow: 1px 1px 1px #000;
+
+}
+
+.delivery {
+  margin: 0;
+  font-size: 18px;
+}
+
+.span {
+  color: #32CD32;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 18px;
+}
+
+.flicker {
+  animation-name: flicker;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.footer, .footer a, .footer a:visited {
+  color: #32CD32;
+  text-shadow: 1px 1px 1px #000;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1
+  }
+  50% {
+    opacity: 1
+  }
+  50.01% {
+      opacity: 0
+  }
+  100% {
+      opacity: 0
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .buttons {
+    margin: 25px 0;
+  }
+}
