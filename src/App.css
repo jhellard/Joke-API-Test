@@ -18,6 +18,12 @@
   background-color: rgb(50, 50, 50);
 }
 
+.choose {
+  color: #32CD32;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 32px;
+}
+
 .Typewriter {
   max-width: 700px;
 }
@@ -27,7 +33,6 @@
   margin: 10px;
   color: #32CD32;
   text-shadow: 1px 1px 1px #000;
-
 }
 
 .delivery {

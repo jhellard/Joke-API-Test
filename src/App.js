@@ -24,12 +24,21 @@ class App extends Component {
     return <div className='wrapper'>
       {
         isPending ?
-          <div>
-            <h1 className='joke'>Choose your joke...</h1>
+          <>
+            <h1>
+              <Typewriter
+                options={{
+                  wrapperClassName: 'choose',
+                  cursorClassName: 'flicker span',
+                  strings: 'Choose your joke...',
+                  autoStart: true,
+                }}
+              />
+            </h1>
             <Buttons grabJokes={this.grabJokes} />
-          </div> : !joke.joke ?
+          </> : !joke.joke ?
             (
-              <div>
+              <>
                 <h1 className='joke'>{joke.setup}</h1>
                 <Typewriter
                   options={{
@@ -40,12 +49,12 @@ class App extends Component {
                   }}
                 />
                 <Buttons grabJokes={this.grabJokes} />
-              </div>
+              </>
             ) : (
-              <div>
+              <>
                 <h1 className='joke'>{joke.joke}</h1>
                 <Buttons grabJokes={this.grabJokes} />
-              </div>
+              </>
             )
       }
       <p className='footer'>Made by: <a href='https://github.com/JHellard'>Joshua Hellard</a></p>
