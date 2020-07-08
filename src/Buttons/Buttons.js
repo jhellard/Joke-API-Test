@@ -3,9 +3,8 @@ import React from 'react';
 const Buttons = ({ grabJokes }) => {
   return (
     <div className='buttons'>
-      <button onClick={() => grabJokes('Programming')}>Programming Joke</button>
-      <button onClick={() => grabJokes('Miscellaneous')}>Misc Joke</button>
-      <button onClick={() => grabJokes('Dark')}>Dark Joke</button>
+      <button onClick={() => grabJokes('general')}>General Joke</button>
+      <button onClick={() => grabJokes('programming')}>Programming Joke</button>
     </div>
   );
 }

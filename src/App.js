@@ -13,13 +13,14 @@ class App extends Component {
   }
 
   grabJokes = (type) => {
-    fetch('https://sv443.net/jokeapi/v2/joke/' + type)
+    fetch('https://official-joke-api.appspot.com/jokes/' + type + '/random')
       .then(response => response.json())
-      .then(response => this.setState({ joke: response, isPending: false }))
+      .then(response => this.setState({ joke: response[0], isPending: false }))
   }
 
   render() {
     const { joke, isPending } = this.state;
+    console.log(joke);
 
     return <div className='wrapper'>
       {
@@ -44,7 +45,7 @@ class App extends Component {
                   options={{
                     wrapperClassName: 'span',
                     cursorClassName: 'flicker span',
-                    strings: joke.delivery,
+                    strings: joke.punchline,
                     autoStart: true,
                   }}
                 />
