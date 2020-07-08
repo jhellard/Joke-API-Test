@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Joke-API-Test/static/css/main.f23fbd26.chunk.css",
-    "main.js": "/Joke-API-Test/static/js/main.8268d962.chunk.js",
-    "main.js.map": "/Joke-API-Test/static/js/main.8268d962.chunk.js.map",
+    "main.js": "/Joke-API-Test/static/js/main.bf19cb94.chunk.js",
+    "main.js.map": "/Joke-API-Test/static/js/main.bf19cb94.chunk.js.map",
     "runtime-main.js": "/Joke-API-Test/static/js/runtime-main.55343c7c.js",
     "runtime-main.js.map": "/Joke-API-Test/static/js/runtime-main.55343c7c.js.map",
     "static/js/2.8dac1b4e.chunk.js": "/Joke-API-Test/static/js/2.8dac1b4e.chunk.js",
     "static/js/2.8dac1b4e.chunk.js.map": "/Joke-API-Test/static/js/2.8dac1b4e.chunk.js.map",
     "index.html": "/Joke-API-Test/index.html",
-    "precache-manifest.08a5f49e47efb78dd3e57840b42879ba.js": "/Joke-API-Test/precache-manifest.08a5f49e47efb78dd3e57840b42879ba.js",
+    "precache-manifest.4b931b09c2a4cfe1e9322c85679aa966.js": "/Joke-API-Test/precache-manifest.4b931b09c2a4cfe1e9322c85679aa966.js",
     "service-worker.js": "/Joke-API-Test/service-worker.js",
     "static/css/main.f23fbd26.chunk.css.map": "/Joke-API-Test/static/css/main.f23fbd26.chunk.css.map",
     "static/js/2.8dac1b4e.chunk.js.LICENSE.txt": "/Joke-API-Test/static/js/2.8dac1b4e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.55343c7c.js",
     "static/js/2.8dac1b4e.chunk.js",
     "static/css/main.f23fbd26.chunk.css",
-    "static/js/main.8268d962.chunk.js"
+    "static/js/main.bf19cb94.chunk.js"
   ]
 }
