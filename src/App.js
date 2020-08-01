@@ -3,6 +3,8 @@ import Typewriter from 'typewriter-effect';
 import Buttons from './Buttons/Buttons';
 import './App.css';
 
+// I hope this is a good example for what can be achieved with such little code.
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -20,7 +22,6 @@ class App extends Component {
 
   render() {
     const { joke, isPending } = this.state;
-    console.log(joke);
 
     return <div className='wrapper'>
       {

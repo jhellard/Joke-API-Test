@@ -16,12 +16,17 @@
   margin: 0 10px;
   color: #32CD32;
   background-color: rgb(50, 50, 50);
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(110%);
 }
 
 .choose {
   color: #32CD32;
   text-shadow: 1px 1px 1px #000;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .Typewriter {
@@ -35,15 +40,10 @@
   text-shadow: 1px 1px 1px #000;
 }
 
-.delivery {
-  margin: 0;
-  font-size: 18px;
-}
-
 .span {
   color: #32CD32;
   text-shadow: 1px 1px 1px #000;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .flicker {
@@ -55,6 +55,10 @@
 .footer, .footer a, .footer a:visited {
   color: #32CD32;
   text-shadow: 1px 1px 1px #000;
+}
+
+.footer:hover {
+  filter: brightness(110%);
 }
 
 @keyframes flicker {
